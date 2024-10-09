@@ -23,7 +23,6 @@ func createFile(filename string) *os.File {
 }
 
 func writeIntoFile(file *os.File, text string) {
-
 	fmt.Println()
 	fmt.Println("Writing text line into the file: ", text)
 
